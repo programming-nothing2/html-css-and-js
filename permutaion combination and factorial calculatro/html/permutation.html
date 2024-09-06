@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permuation Calculator</title>
+    <link rel="stylesheet" href="../css/permutation.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="change_page">
+                <button><a href="../index.html">HOME</a></button>
+                <button><a href="permutation.html">Permutation</a></button>
+                <button><a href="../html/combination.html">Combination</a></button>
+                <button><a href="../html/factorial.html">Factorial</a></button>
+            </div>
+            <h1>Permutation Calculator</h1>
+
+            <input type="number" id="n" placeholder="Enter a number (n):"><br><br>
+            <input type="number" id="r" placeholder="Enter a number (r):"><br><br>
+            <br>
+
+            <div class="result">
+                <br>
+                <p id="answer"></p>
+            </div><br><br>
+
+            <button id="calc" onclick="calculatePermutation()">Calculate Permutation</button>
+        </form>
+    </div>
+
+
+    <script src="../js/permutation.js"></script>
+</body>
+</html>
